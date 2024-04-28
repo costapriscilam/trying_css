@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+:root{
+        --cor-primaria: #E5E5E5;
+        --cor-secundaria: #242424;
+        --fonte-primaria: "Inter", sans-serif;
+
+}
+
+
+body{
+    background-color: #E5E5E5;
+    color: #242424;
+}
+
+
+.cabecalho{
+    padding: 2% 0% 0% 5% ;
+}
+
+.cabecalho__menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-decoration: none;
+    
+}
+
+.cabecalho__menu__link{
+    text-decoration: none;
+    color: var(--cor-secundaria);
+    font-family: var(--fonte-primaria);
+    font-size: 16px;
+    font-weight: 400;
+    
+
+}
+
+.botão__cabeçalho{
+    background-color: rgb(247, 238, 119);
+    font-family: var(--fonte-primaria);
+    font-size: 16px ;
+    font-weight: 500;
+    border-style: hidden;
+    border-radius: 8px;
+    padding: 5px 15px;
+    
+}
+
+.screen__1{
+    padding: 5%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+    
+}
+
+.screen__1__conteudo{
+
+    
+
+}
+
+.screen__1__conteudo__titulo{
+    
+}
+
+.screen__1__conteudo__texto{
+    
+}
+
+.screen__1__conteudo__link{
+    background-color: var(--cor-secundaria);
+    color: #E5E5E5;
+    font-family: var(--fonte-primaria);
+    font-size: 16px ;
+    font-weight: 500;
+    border-style: hidden;
+    border-radius: 8px;
+    padding: 5px 15px;
+
+}
+
+.screen__1__imagem{
+
+}
